@@ -1,0 +1,59 @@
+.socialicons{
+    display: flex;
+    padding: 32px 32px;
+    background-color: #ccc;
+    justify-content: space-evenly;
+
+}
+.socialicons img{
+    width: 50px;
+    height: 50px;
+}
+
+form{
+    border: 1px;
+    align-content: center;
+    background-color: white;
+    width: 33.3vw;
+    height: 100vh;
+}
+
+body{
+    background-color: #ccc;
+    align-content: center;
+    display: grid;
+    place-content: center;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-size: 32px;
+    padding-top: 56px;
+    padding-bottom: 32px;
+    text-align: center;
+}
+input{
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+   padding-bottom: 12px;
+    margin-bottom: 36px;
+
+}
+
+.input-field-container{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 80px 40px 80px;
+}
+.register{
+   display: flex;
+   justify-content: center;
+ }
+ .register input{
+    background-color: #0056ff;
+    padding: 12px 24px 12px 24px;
+    font-size: 18px;
+    color: white;
+    border: none;
+ }
